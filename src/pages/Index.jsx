@@ -17,16 +17,17 @@ function Index(){
 
     return (
         <>
-        <h1 className="font-black text-4xl text-blue-900">Clientes</h1>
-        <p className="mt-3">Administra tus Clientes</p>
+        <h1 className="font-black text-4xl text-blue-900">Facturas</h1>
+        <p className="mt-3">Administra tus Facturas</p>
 
         {clientes.length ? (
             <table className="w-full bg-white shadow mt-5 table-auto">
 
                 <thead className="bg-blue-800 text-white">
                     <tr>
-                        <th className="p-2">Cliente</th>
-                        <th className="p-2">Contacto</th>
+                        <th className="p-2">Factura</th>
+                        <th className="p-2">Categoría</th>
+                        <th className="p-2">Monto</th>
                         <th className="p-2">Acciones</th>
                     </tr>
                 </thead>
